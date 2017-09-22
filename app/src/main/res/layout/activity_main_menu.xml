@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.github.mathrio.matthathathatha.MainMenu">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Welcome"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorButton1"
+        android:text="Play Game"
+        android:textColor="@color/colorTextMain" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="146dp"
+        android:layout_height="54dp"
+        android:textColor="@color/colorTextMain"
+        android:background="@color/colorButton2"
+        android:text="Settings"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/button1"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="146dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="33dp"
+        android:text="Help"
+        android:textColor="@color/colorTextMain"
+        android:background="@color/colorButton3"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="146dp"
+        android:layout_height="54dp"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorTextMain"
+        android:background="@color/colorButton4"
+        android:layout_marginTop="32dp"
+        android:text="Info" />
+
+</RelativeLayout>
